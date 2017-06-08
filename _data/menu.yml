@@ -1,0 +1,18 @@
+- title: "About"
+  href: "/"
+
+- title: "Research"
+  href: "/research/"
+
+- title: "Teaching"
+  href: "/teaching/"
+
+- title: "CV"
+  href: "/cv/"
+
+# title: "Miscellany"
+#  href: "/miscellany/"
+#  subcategories:
+#    - subtitle: "Item 1"
+#      subhref: "/miscellany/item-1/"
+
