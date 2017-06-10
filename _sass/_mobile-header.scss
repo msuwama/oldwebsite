@@ -37,13 +37,12 @@
 .site-nav .menu li {
 		display: block;
 		margin: 0;
-		color: #522d80;
+		color: black;
 	}
 
 .site-nav ul.menu a {
-	background: #fff;
-	color: #522d80;
-
+	background: white;
+	color: gray;
 }
 
 .site-nav a,
@@ -55,6 +54,12 @@
 		height: auto;
 		text-align: left;
 	}
+
+.site-nav .menu .active {
+	  color: black;
+	  margin: 0;
+	  padding-left: 10px;
+}
 
 .site-nav .sub-menu {
 		border: 0;

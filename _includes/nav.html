@@ -12,7 +12,7 @@
 <!--    <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
 --> 
     {% if steve.title == page.category%}
-    <li class="active page-link"> {{ steve.title }} </li>
+    <li><a class="active page-link"> {{ steve.title }}</a></li>
     {% else %}
     <li><a href="{{ steve.href }}" class = "page-link">{{ steve.title }}</a>
     {% endif %}
