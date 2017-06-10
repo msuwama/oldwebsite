@@ -4,8 +4,8 @@ email: "&#109;&#097;&#107;&#111;&#116;&#111;&#046;&#115;&#117;&#119;&#097;&#109;
 description: > # this means to ignore newlines until "baseurl:"
   I am a graduate student at University of Georgia studying mathemtics. My research interests include number theory and algebraic geometry
 baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://localhost:4000"
-url: "https://msuwama.github.io"
+url: "http://localhost:4000"
+#url: "https://msuwama.github.io"
 github_username: msuwama
 office: Boyd 434H
 officemap: "https://goo.gl/pioTxT"
