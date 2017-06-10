@@ -37,7 +37,7 @@
 }
 
 .site-nav ul li a {
-	color: #fff;
+	color: #C1C1C1;//lightgray;
 }
 
 .site-nav ul {
@@ -70,7 +70,7 @@
 
 .site-nav a {
 	display: block;
-        color: #ffffff;
+        color: black;
 }
 
 /* Sub Menu */
@@ -150,14 +150,13 @@ z-index:999;
     float: right;
     line-height: 40px;
 
-
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: #ffffff;
-    background: $bulldog-red;
+        //color: #ffffff;
+   	background: $bulldog-red;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -166,7 +165,13 @@ z-index:999;
         }
     }
 
-
+    .active {
+    	 color: white;
+    }
+    a:hover {
+    	 color: gray;
+         text-decoration: none;	 
+    }
 
     @include media-query($on-palm) {
         position: absolute;
@@ -212,5 +217,3 @@ z-index:999;
         }
     }
 }
-
-

@@ -9,7 +9,13 @@
     {% endfor %}
     </ul>
     {% else %}
-     <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
+<!--    <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
+--> 
+    {% if steve.title == page.category%}
+    <li class="active page-link"> {{ steve.title }} </li>
+    {% else %}
+    <li><a href="{{ steve.href }}" class = "page-link">{{ steve.title }}</a>
+    {% endif %}
     {% endif %}
     </li>
     {% endfor %}

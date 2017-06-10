@@ -1,5 +1,6 @@
 # To do
-- [ ] Modify navbar to highlight current page
+- [x] add cv
+- [x] Modify navbar to highlight current page
+- [ ] Modify navbar to highlight current page for submenu
 - [ ] current teaching and past teaching
-- [ ] add cv
 - [ ] check mobile
