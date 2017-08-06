@@ -1,22 +1,21 @@
 <ul class="menu">
-
-    {% for steve in site.data.menu %}
-    {% if steve.subcategories != null %}
-    <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
+  {% for steve in site.data.menu %}
+  {% if steve.subcategories != null %}
+  <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
     <ul class="sub-menu">
-    {% for subcategory in steve.subcategories %}
-    <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
-    {% endfor %}
+      {% for subcategory in steve.subcategories %}
+      <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+      {% endfor %}
     </ul>
-    {% else %}
-<!--    <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
---> 
+  {% else %}
+    <!--    <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
+      --> 
     {% if steve.title == page.category%}
-    <li><a class="active page-link"> {{ steve.title }}</a></li>
-    {% else %}
-    <li><a href="{{ steve.href }}" class = "page-link">{{ steve.title }}</a>
+  <li><a class="active page-link"> {{ steve.title }}</a></li>
+  {% else %}
+  <li><a href="{{ steve.href }}" class = "page-link">{{ steve.title }}</a>
     {% endif %}
     {% endif %}
-    </li>
-    {% endfor %}
-    </ul>
+  </li>
+  {% endfor %}
+</ul>
