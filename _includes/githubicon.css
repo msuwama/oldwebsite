@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'githubicon';
-  src:  url('fonts/github.eot?2jhvwy');
-  src:  url('fonts/github.eot?2jhvwy#iefix') format('embedded-opentype'),
-    url('fonts/github.ttf?2jhvwy') format('truetype'),
-    url('fonts/github.woff?2jhvwy') format('woff'),
-    url('fonts/github.svg?2jhvwy#icomoon') format('svg');
+  src:  url('/fonts/github.eot?2jhvwy');
+  src:  url('/fonts/github.eot?2jhvwy#iefix') format('embedded-opentype'),
+    url('/fonts/github.ttf?2jhvwy') format('truetype'),
+    url('/fonts/github.woff?2jhvwy') format('woff'),
+    url('/fonts/github.svg?2jhvwy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
