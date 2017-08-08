@@ -1,18 +1,21 @@
 <ul class="menu">
   {% for steve in site.data.menu %}
   {% if steve.subcategories != null %}
-  <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
+  {% if steve.title == page.category %}
+  <li><a href="{{ steve.href}}" class="active page-link"> {{ steve.title }}</a>
+    {% else %}
+  <li><a href="{{ steve.href }}" class = "page-link">{{ steve.title }}</a>
+    {% endif %}
     <ul class="sub-menu">
       {% for subcategory in steve.subcategories %}
       <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
       {% endfor %}
     </ul>
-  {% else %}
-    <!--    <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>
-      --> 
-    {% if steve.title == page.category%}
-  <li><a class="active page-link"> {{ steve.title }}</a></li>
-  {% else %}
+    {% else %}
+    <!--    <li><a href="{{ steve.href }}" class="page-link">{{ steve.title }}</a>--> 
+    {% if steve.title == page.category %}
+  <li><a class="active page-link"> {{ steve.title }}</a>
+    {% else %}
   <li><a href="{{ steve.href }}" class = "page-link">{{ steve.title }}</a>
     {% endif %}
     {% endif %}
