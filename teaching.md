@@ -29,15 +29,7 @@ Course Administration
 
 ???Announcements
 
------------------------
-Teaching
 
-I’ve had the good fortune of being able to teach several classes during my time at UGA. This semester I am teaching two sections of Precalculus (Math 1113) at UGA:
-
-    Precalculus 40594 (8:00am – 9:15am)
-    Precalculus 40603 (9:30am – 10:45am)
-
----
 Precalculus: Math 1113 (CRN 40603), Spring 2017
 Course Info
 
