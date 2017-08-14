@@ -5,9 +5,8 @@ permalink: /teaching/
 category: Teaching
 ---
 
-I am teaching two sections of Precalculus (Math 1113) in Fall 2017.
+I am teaching a section of Precalculus (Math 1113) in Fall 2017.
 + [Precalculus 32967 (8:00am-8:50am)](2017F-1113a)
-+ [Precalculus 15369 (12:20pm-1:10pm)](2017F-1113b)
 
 <!--
 add current teaching and past teaching
