@@ -6,9 +6,11 @@
 
 - title: "Teaching"
   href: "/teaching/"
-  subcategories:
-    - subtitle: "Math 1113 (CRN 32967) 8:00am-8:50am"
-      subhref: "/teaching/2017F-1113"
+#- title: "Teaching"
+#  href: "/teaching/"
+#  subcategories:
+#    - subtitle: "Math 1113 (CRN 32967) 8:00am-8:50am"
+#      subhref: "/teaching/2017F-1113"
 
 - title: "CV"
   href: "/cv/"
